@@ -28,7 +28,7 @@ width: 33%; /*Use this to control width of the parent container, hence the image
   left: 1281px;
 }
 .gf{
-  position: absolute;
+  position: relative;
   color: #FFF;
   font-size: 100px;
   top: 600px;
