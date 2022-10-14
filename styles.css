@@ -31,6 +31,9 @@ width: 33%; /*Use this to control width of the parent container, hence the image
   position: absolute;
   color: #FFF;
   font-size: 100px;
+  top: 600px;
+  text-align: center;
+  left: 100px;
 }
 button.lastfm {
   position: absolute;
