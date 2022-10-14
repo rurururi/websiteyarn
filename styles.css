@@ -1,0 +1,59 @@
+img.stretchy {
+width: 100%; /*Tells image to fit to width of parent container*/
+}
+.container {
+width: 33%; /*Use this to control width of the parent container, hence the image*/
+  position: absolute;
+  top: 50px;
+  left: 5px;
+}
+
+img.stretchy1 {
+width: 100%; /*Tells image to fit to width of parent container*/
+}
+.container1 {
+width: 33%; /*Use this to control width of the parent container, hence the image*/
+  position: absolute;
+  top: 50px;
+  left: 643px;
+}
+
+img.stretchy2 {
+width: 100%; /*Tells image to fit to width of parent container*/
+}
+.container2 {
+width: 33%; /*Use this to control width of the parent container, hence the image*/
+  position: absolute;
+  top: 50px;
+  left: 1281px;
+}
+
+button.lastfm {
+  position: absolute;
+  color: #FFF;
+  right: 850px;
+  top: 300px;
+  width: 200px;
+  padding: 10px;
+  z-index: 1;
+  border: 0;
+  background: transparent;
+  transition: .2s ease-in-out 0s;
+}
+
+button.lastfm img{
+  width: 175px;
+  height: 175px;
+}
+
+.lastfm:hover {
+      cursor: pointer;
+      transform: scale(1.25);
+    }
+p.lastfm-text{
+  font-size: 30px;
+  text-align: center;
+}
+body {
+  background-color: #2E3440;
+}
