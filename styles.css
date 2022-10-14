@@ -27,7 +27,11 @@ width: 33%; /*Use this to control width of the parent container, hence the image
   top: 50px;
   left: 1281px;
 }
-
+.gf{
+  position: absolute;
+  color: #FFF;
+  font-size: 100px;
+}
 button.lastfm {
   position: absolute;
   color: #FFF;
